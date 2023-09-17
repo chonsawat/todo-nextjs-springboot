@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/todos_spring?useSSL=false
+    username: root
+    password: admin
+  
+  jpa:
+    hibernate:
+      ddl_auto: update
+    show-sql: true
